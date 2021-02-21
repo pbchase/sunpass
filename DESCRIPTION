@@ -1,0 +1,32 @@
+Package: sunpass
+Title: Sunpass Data Reading and Summary Tools
+Version: 0.1.0
+Authors@R: 
+    person(given = "Philip",
+           family = "Chase",
+           role = c("aut", "cre"),
+           email = "philipbchase@gmail.com")
+Description: sunpass is an R library for reading and querying data from 
+    Sunpass, Florida's prepaid road toll program. The library consumes 
+    downloaded transactiion and transponder data in CSV format to produce,
+    a single fully detailed dataset as well as transponder-level and 
+    trip level summary datasets.
+License: Apache License (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports:
+  devtools,
+  dplyr,
+  janitor,
+  lubridate,
+  magrittr,
+  purrr,
+  readr,
+  rlang,
+  stringr,
+  tidyverse,
+  tidyr
+Suggests: 
+    testthat (>= 2.0.0)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
